@@ -20,8 +20,8 @@ a {
     transition:all 260ms linear;
 }
 a:hover{
-    color:black;
-    text-shadow:2px 2px 5px rgb(107, 104, 104);
+    color: black;
+    text-shadow:2px 2px 5px rgb(61, 56, 54);
 }
 
 button , #coursesMobile button {
@@ -47,6 +47,7 @@ button:hover , #coursesMobile button:hover {
     color:rgb(78, 76, 76);
 }
 
+/* Fonts in use */
 
 @font-face {
   font-family: 'Work Sans';
@@ -112,12 +113,12 @@ header {
 }
 
 .logo span {
-  color: rgb(214, 6, 6);
-  font-weight: 700;
+  color: grey;
+  font-weight: 500;
 }
 
 .logo:hover {
-  color: rgb(53, 49, 50);
+  color: black;
   text-shadow: 5px 5px 5px rgb(199, 195, 204);
   transition: all 200ms linear;
 
